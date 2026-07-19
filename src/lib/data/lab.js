@@ -1,0 +1,58 @@
+export const labEntries = [
+  {
+    title: "Autograd Engines",
+    category: "Systems",
+    description: "Reverse-mode automatic differentiation with dynamic computation graphs. Built entirely in C, compiled to WebAssembly.",
+    tags: ["C", "Autodiff", "WASM", "Computation Graphs"],
+    metric: "15+ ops supported",
+  },
+  {
+    title: "Vision Transformers",
+    category: "Research",
+    description: "From-scratch ViT implementation with patch embeddings, multi-head attention, and positional encoding. Trained with distributed data parallelism.",
+    tags: ["PyTorch", "ViT", "DDP", "Self-Attention"],
+    metric: "768-dim, 12 heads",
+  },
+  {
+    title: "Adversarial Steganography",
+    category: "Security",
+    description: "Multi-stage pipeline for invisible watermarking with adversarial robustness. Segmentation, encoding, extraction, and GAN refinement.",
+    tags: ["PyTorch", "GANs", "U-Net", "DDP"],
+    metric: "4-stage pipeline",
+  },
+  {
+    title: "Edge Inference",
+    category: "Deployment",
+    description: "Neural networks compiled from C to WebAssembly for zero-dependency browser inference. Custom tensor library with backward pass.",
+    tags: ["C", "WASM", "PWA", "Emscripten"],
+    metric: "97% accuracy",
+  },
+  {
+    title: "Channel Attention",
+    category: "Computer Vision",
+    description: "Squeeze-and-Excitation networks for adaptive channel-wise feature recalibration. Full-stack deployment with automatic data collection.",
+    tags: ["TensorFlow", "SE-Net", "Flask", "HuggingFace"],
+    metric: "96.5% on 38 classes",
+  },
+  {
+    title: "Online Learning",
+    category: "MLOps",
+    description: "Zero-downtime model updates from user feedback. Background fine-tuning with hot-swapped weights during serving.",
+    tags: ["PyTorch", "Flask", "REST API", "Feedback Loops"],
+    metric: "Zero downtime",
+  },
+  {
+    title: "Generative Models",
+    category: "Research",
+    description: "Text-to-image generation with Stable Diffusion. WaveNet-inspired music generation with dilated causal convolutions.",
+    tags: ["Diffusers", "WaveNet", "PyTorch", "CUDA"],
+    metric: "512×512 output",
+  },
+  {
+    title: "Distributed Training",
+    category: "Infrastructure",
+    description: "Multi-GPU training with PyTorch DDP and NCCL backend. DistributedSampler, gradient synchronization, and cosine annealing.",
+    tags: ["DDP", "NCCL", "Multi-GPU", "CosineAnnealing"],
+    metric: "Multi-node ready",
+  },
+];
